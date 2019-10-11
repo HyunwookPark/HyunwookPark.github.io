@@ -1,41 +1,36 @@
 body {
   color: #333;
   background-color: #FFF;
+  font-family: "Sawarabi Gothic";
 }
 h1 {
   font-family: 'Paytone One', sans-serif;
   /* font-size: 50pt; */
 }
+/* ふわっと表示するための非表示 */
 .off {
   opacity: 0;
 }
+/* スローガンの文字の部分 */
+.logo {
+  font-size: 20pt;
+  color: #FFF;
+  font-family: 'Paytone One', sans-serif;
+}
+/* ヘッダ部分 */
+header {
+  background-color: #333;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* セクションごとの設定 */
 section {
   /* height: 1000px; */
   /* background-color: #FAA; */
   /* height: 500px; */
   margin-top: 100px;
 }
-header {
-  background-color: #333;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-.logo {
-  font-size: 20pt;
-  color: #FFF;
-  font-family: 'Paytone One', sans-serif;
-}
-footer {
-  background-color: #333;
-  margin-top: 100px;
-  color: #FFF;
-  font-family: 'Blinker', sans-serif;
-}
-footer .row {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
+/* セクション内のボタン */
 section .btn {
   font-family: "Sawarabi Gothic";
   border-radius: 30px;
@@ -49,6 +44,22 @@ section .btn:hover {
   animation: btn-hover 1s;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
 }
+section h1 {
+  border-bottom: solid 1px #333;
+  filter: drop-shadow(2px 2px 2px #555);
+  margin-bottom: 30px;
+}
+/* フッター */
+footer {
+  background-color: #333;
+  margin-top: 100px;
+  color: #FFF;
+  font-family: 'Blinker', sans-serif;
+}
+footer .row {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 @keyframes btn-hover {
   0% {
     background-color: #fff;
@@ -60,10 +71,11 @@ section .btn:hover {
   }
 }
 
-.nav-link:link, .nav-link:visited {
+/* ヘッダ内のナビゲーション */
+header .nav-link:link, .nav-link:visited {
   color: #aaa;
 }
-.nav-link:hover {
+header .nav-link:hover {
   color: #fff;
   animation: nav-hover .5s;
 }

@@ -48,3 +48,32 @@
   top: -140px;
   left: 30px;
 }
+#tt {
+  background-image: url("../img/hatching-chicks-2448541_1280.jpg");
+  text-align: center;
+  border-radius: 20px;
+  border: 1px #555 solid;
+  filter: drop-shadow(2px 2px 2px #555);
+}
+#tt div {
+  font-size: 50pt;
+  font-family: 'Paytone One', sans-serif;
+  text-shadow: 3px 3px 3px #555;
+  -webkit-text-stroke: 1px #fff;
+  text-stroke: 1px #fff;
+}
+ .stxt {
+   font-size: 16pt;
+   filter: drop-shadow(2px 2px 1px #aaa);
+ }
+.triangle {
+  text-align: center;
+}
+.triangle div {
+  border-right: 20px solid transparent;
+  border-top: 20px solid #aaa;
+  border-left: 20px solid transparent;
+}
+.company-name {
+  filter: drop-shadow(2px 2px 1px #aaa);
+}
