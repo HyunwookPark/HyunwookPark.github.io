@@ -77,3 +77,7 @@
 .company-name {
   filter: drop-shadow(2px 2px 1px #aaa);
 }
+.service-name {
+  border-left: solid 5px #33f;
+  padding-left: 10px;
+}
