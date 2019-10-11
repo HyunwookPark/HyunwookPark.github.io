@@ -1,0 +1,50 @@
+.signboard {
+  text-align: center;
+  padding-top: 100px;
+  /* padding-bottom: 50px; */
+  /* border: solid pink 1px; */
+}
+.signboard div {
+  /* border: solid blue 1px; */
+}
+.slogan {
+  text-align: center;
+  font-size: 250%;
+  font-family: 'Indie Flower', cursive;
+  filter: drop-shadow(2px 2px 2px #555);
+}
+
+.nav-link {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.button-col {
+  text-align: center;
+}
+
+#Services .row:nth-child(n+3) {
+  margin-top: 30px;
+  /* padding-bottom: 50px; */
+}
+#About .row:nth-child(n+3) {
+  margin-top: 30px;
+  /* padding-bottom: 50px; */
+}
+
+#flask {
+  filter: drop-shadow(2px 2px 2px #000);
+}
+
+#gearblue, #gearpink {
+  position: relative;
+  filter: drop-shadow(1px 1px 1px #000);
+}
+
+#gearblue {
+  top: -100px;
+  left: -30px;
+}
+#gearpink {
+  top: -140px;
+  left: 30px;
+}
