@@ -1,0 +1,29 @@
+/* 日本語タイトル用 */
+.ja-title {
+  font-family: "Sawarabi Gothic";
+}
+/* 日本語説明用 */
+.ja-txt {
+  font-family: "Sawarabi Gothic";
+}
+/* 英語タイトル用 */
+.en-title {
+  font-family: 'Paytone One', sans-serif;
+}
+/* 英語説明用 */
+.en-txt {
+  font-family: 'Blinker', sans-serif;
+}
+
+/* font-family: 'Lora', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Arvo', serif;
+font-family: 'EB Garamond', serif; */
+
+/* font-family: 'Long Cang', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Source Serif Pro', serif;
+font-family: 'Abril Fatface', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Permanent Marker', cursive; */
