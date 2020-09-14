@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pakhuncho Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-09-14T16:13:00+09:00</updated><entry><title>サイトへのアクセス数見てますか？</title><link href="/saitohenoakusesushu-jian-temasuka.html" rel="alternate"></link><published>2020-09-14T16:13:00+09:00</published><updated>2020-09-14T16:13:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-14:/saitohenoakusesushu-jian-temasuka.html</id><summary type="html">&lt;p&gt;ウェブサイトやブログは作ったけど、どのぐらい見てくれているのかはよくわからない。アクセス数、気にしなくて大丈夫ですか？&lt;/p&gt;</summary><content type="html">&lt;h1&gt;あなたのサイトには毎月どのぐらいアクセスされているか知っていますか？&lt;/h1&gt;
+&lt;p&gt;マーケティングの観点からもアクセスの分析は有効です。&lt;/p&gt;
+&lt;p&gt;例えばあなたのサイトに無料体験申込のページがあるとしましょう。
+サイトへのアクセス数とサイト内の無料体験申込の比率を知ることで、単純に言えばアクセス数を2倍にすることで申込が2倍になる可能性があります。
+またアクセス数は多いけど無料体験申込が極端に少ない場合、無料体験申込への誘導が悪かったり無料体験自体に魅力がないなどどこを改善すべきか絞り込むことができるわけです。&lt;/p&gt;
+&lt;p&gt;様々な要因があって机上の計算通りにはいきませんが、問題や改善するための材料になることは間違いありません。
+まずは各タイミングの数を知ることからはじめて、お客様の気持ちを知りましょう。&lt;/p&gt;
+&lt;h1&gt;Google Analytics&lt;/h1&gt;
+&lt;p&gt;手軽にサイトへのアクセスを確認できるものとしてGoogle Analyticsがあります。&lt;/p&gt;
+&lt;p&gt;&lt;img alt="google analytics" src="/images/logo_lockup_analytics_icon_vertical_black_2x.png"&gt;&lt;/p&gt;
+&lt;p&gt;https://analytics.google.com/&lt;/p&gt;
+&lt;p&gt;例として、私のqiitaの投稿に対するアクセス数のグラフを掲載します。
+これは2年間のアクセス数の推移ですが、徐々に上がって最近は停滞していることがわかります。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-myqiita-1.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;またこちらを見ると平日の業務時間あたりにアクセスが集中していることがわかります。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-myqiita-2.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;さらにどのページが人気なのかもわかります。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-myqiita-3.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;他にも検索エンジンから来たのか直接ブックマークなどから来たのか、どの国からのアクセスが多いのか、など色んなことがわかります。&lt;/p&gt;
+&lt;h1&gt;Google Analytics 導入手順&lt;/h1&gt;
+&lt;p&gt;導入手順を軽く確認しておきます。&lt;/p&gt;
+&lt;h3&gt;ログイン&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Google Analyticsを利用するためにはGoogleのメールアドレスが必要です。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;以下のページアクセスして、Googleのメールアドレスでログインしてください。&lt;/p&gt;
+&lt;p&gt;https://analytics.google.com/&lt;/p&gt;
+&lt;h3&gt;用語説明&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;用語&lt;/th&gt;
+&lt;th&gt;説明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;アカウント&lt;/td&gt;
+&lt;td&gt;Googleアカウント(メールアドレス)とは別のもので管理するサイト単位の名前のこと&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;トラッキングID&lt;/td&gt;
+&lt;td&gt;サイトのアクセスを追跡するために割り振られるID&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;アカウントの追加&lt;/h3&gt;
+&lt;p&gt;左下の「管理」のボタンを押して、「アカウント作成」を選ぶ。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-01.png" alt="手順1" class="img-fluid"&gt;
+&lt;img src="/images/google_anlytics-00.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;アカウント名を入力して「次へ」を押す。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-02.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;通常のWebサイトなら「ウェブ」を選択して「次へ」を押す。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-03.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;サイト名やURLを入力し「作成」を押す。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-04.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;利用規約を確認する。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-05.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;トラッキング情報を確認してサイトに貼り付ける。&lt;/p&gt;
+&lt;p&gt;&lt;img src="/images/google_anlytics-06.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;</content><category term="ウェブサイト"></category><category term="ウェブサイト"></category><category term="ブログ"></category></entry><entry><title>ブログ始めます</title><link href="/burogushi-memasu.html" rel="alternate"></link><published>2020-09-14T16:00:00+09:00</published><updated>2020-09-14T16:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-14:/burogushi-memasu.html</id><summary type="html">&lt;p&gt;自己紹介とブログをはじめた理由、エンジニアらしい？ブログ管理についてもふれています。&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img src="/images/gori0I9A3105072103338_TP_V.jpg" class="img-fluid" width="100%"&gt;&lt;/p&gt;
+&lt;h1&gt;自己紹介&lt;/h1&gt;
+&lt;p&gt;はじめまして。朴 玄旭(박 현욱 ぱく ひょぬ) です。&lt;/p&gt;
+&lt;p&gt;10歳に日本に来た韓国人です。&lt;code&gt;Planaria Inc.&lt;/code&gt;というIT会社を経営しています。
+現役でシステムエンジニアもやっていてエンジニア歴は17年ほどです。&lt;/p&gt;
+&lt;p&gt;連絡はブログ内のアイコンのfacebookかtwitterからどうぞ。&lt;/p&gt;
+&lt;h1&gt;なぜブログはじめたのか&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://qiita.com/HyunwookPark"&gt;qiita&lt;/a&gt;にはちょくちょく投稿していますが、
+技術ネタ以外はちょっと書きづらいのでこちらで発信してみることにしました。&lt;/p&gt;
+&lt;p&gt;IT企業以外の人向けにシステムやITのことを知ってもらって、
+ビジネスの効率化やシステム導入するときに参考になる情報を発信していきます。&lt;/p&gt;
+&lt;p&gt;プログラミングに興味がある人やエンジニアを目指す人のための情報も発信する予定です。&lt;/p&gt;
+&lt;p&gt;エンジニア・経営者として普段思ったことや考え、また日々の仕事のことも公開範囲で残していこうと思います。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;このブログでの内容は個人的な見解で所属する会社や団体とは関係ありません。&lt;/strong&gt;&lt;/p&gt;
+&lt;h1&gt;どんなことを書くのか&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;IT技術&lt;/li&gt;
+&lt;li&gt;ビジネス関連&lt;/li&gt;
+&lt;li&gt;システム開発&lt;/li&gt;
+&lt;li&gt;教育&lt;/li&gt;
+&lt;li&gt;心&lt;/li&gt;
+&lt;li&gt;お金のこと&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1&gt;ブログの管理&lt;/h1&gt;
+&lt;p&gt;Python製の&lt;a href="https://docs.getpelican.com/"&gt;Pelican&lt;/a&gt;というツールでMARKDOWNをHTMLに変換してGitHubにアップすることにしました。
+普段からメモはMARKDOWNで残しているのでMARKDOWNを使いたかったです。
+「なんということでしょう！普段のメモがそのままブログに！」という感じです。
+MARKDOWNだけで管理しているので、まとめて一括に編集することも可能だしサーバ引っ越しも簡単です。
+WordPressなどのCMSで管理するのもいいですが、ちょっとエンジニアぽくてかっこいいじゃないですか。&lt;/p&gt;</content><category term="ブログ"></category><category term="ブログ"></category></entry></feed>
