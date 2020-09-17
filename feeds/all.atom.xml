@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pakhuncho Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-09-15T13:00:00+09:00</updated><subtitle>システムを売らないシステム屋</subtitle><entry><title>担当エンジニアがいなくなってしまった</title><link href="/dan-dang-enziniagainakunatsuteshimatsuta.html" rel="alternate"></link><published>2020-09-15T13:00:00+09:00</published><updated>2020-09-15T13:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-15:/dan-dang-enziniagainakunatsuteshimatsuta.html</id><summary type="html">&lt;p&gt;システムを作ってもらったエンジニアがいなくなってしまって保守ができなくなった！？私が「システムを売らないシステム屋」を目指す理由。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;先日参加した経営者団体の集まりに参加した際、ある会社の社長とこんな話をしました。&lt;/h2&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pakhuncho Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-09-17T21:45:00+09:00</updated><subtitle>システムを売らないシステム屋</subtitle><entry><title>世の中ホンマにせまい。</title><link href="/shi-nozhong-honmanisemai.html" rel="alternate"></link><published>2020-09-17T21:45:00+09:00</published><updated>2020-09-17T21:45:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-17:/shi-nozhong-honmanisemai.html</id><summary type="html">&lt;p&gt;世界のひとはみんな友達！？&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img src="/images/KAZUHIRO171013000_TP_V.jpg" class="img-fluid" width="100%"&gt;&lt;/p&gt;
+&lt;p&gt;「世の中せまい。」とよく言いますが、この一年つくづくせまいなと感じました。&lt;/p&gt;
+&lt;h1&gt;SESでいろんな会社を訪問する&lt;/h1&gt;
+&lt;p&gt;私はITエンジニアで、SESという業態で長い期間仕事してきました。
+SES(System Engineering Service)とは、簡単に言うと「技術力を提供して一緒にシステム開発しますよ」という仕事の仕方です。&lt;/p&gt;
+&lt;p&gt;SESという業態について賛否両論ありますが、その話はまたゆっくり今度書くとして。&lt;/p&gt;
+&lt;p&gt;この業態はいろんな企業に出向いて、そこでいろんな会社の人たちとチームを組んでシステムを開発します。企業に出向くことを「出向」とも呼びます。
+ひとつの企業で「プロジェクト」という単位でシステム開発をするのですが、そのプロジェクトが終わるとそのチームは解散となります。プロジェクトが終わらなくてもやることが減ってきたらチームメンバーは「満了」と言ってそのプロジェクトから抜けて別の企業に行きます。出向先の企業のことを「現場」と呼んだりしますが、人によって程度の差はあれど数ヶ月から数年ぐらいで現場が切り替わることになります。&lt;/p&gt;
+&lt;p&gt;すると、&lt;/p&gt;
+&lt;p&gt;まるで打ち合わせたかのように以前の現場で一緒だった人が一人や二人いるものです。
+業界せまいなと毎回思ってました。&lt;/p&gt;
+&lt;p&gt;直近ではないですが経済産業省の「平成３０年 特定サービス産業実態調査報告書」から
+「ソフトウェア業、情報処理・提供サービス業及びインターネット附随サービス業」の統計を調べてみました。&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;都道府県&lt;/th&gt;
+&lt;th&gt;事業従事者数&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;東京&lt;/td&gt;
+&lt;td&gt;327,520人&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;大阪&lt;/td&gt;
+&lt;td&gt;82,821人&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;思ったより大阪少ないなという感じました。
+これは顔見知りにちょくちょく出会ってもおかしくはない気もします。&lt;/p&gt;
+&lt;h1&gt;学びの場&lt;/h1&gt;
+&lt;p&gt;昨年の1月からいろんな学びの場にも足を運ぶようになりました。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Money and You&lt;/li&gt;
+&lt;li&gt;MOVEコーチング&lt;/li&gt;
+&lt;li&gt;倫理法人会&lt;/li&gt;
+&lt;li&gt;ロバートキヨサキ氏来日セミナー&lt;/li&gt;
+&lt;li&gt;鴨頭嘉人さんの話し方の学校(こちらは妻が)&lt;/li&gt;
+&lt;li&gt;アンソニーロビンズのUPW(こちらも妻が)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;など。&lt;/p&gt;
+&lt;p&gt;先日、「倫理法人会」という集まりの勉強会に参加していると先生役の方と一緒に来てくださった方は、妻が行った「話し方の学校」で一緒に学んでいた同期の方だったんです。私が記念に一緒に撮った写真を妻が見て「なんで一緒にいるの？」とびっくりしていました。&lt;/p&gt;
+&lt;p&gt;その方以外にも別の学びの場で知った人が他の学びの場の友達の友達ということは本当に多かったんです。&lt;/p&gt;
+&lt;h1&gt;実はみんな友達？&lt;/h1&gt;
+&lt;p&gt;「友達の友達の友達の・・・と10回繰り返すとどんな人にでも出会える」という話を聞いたことがあります。
+「友達100人できるかな～♪」を参考に1人あたり100人友達がいるとすれば、そのつながりは100人の10乗=100000000000000000000(1垓[がい])というとんでもない数字になるわけですね。&lt;/p&gt;
+&lt;p&gt;これを考えると怖くなってきませんか？
+一部の場で取り繕ったことなんてこのせまい世の中では筒抜けということになりませんか。
+facebookには"共通の友達"という機能があって自分の友達が自分の別の友達とつながっているかどうかがわかるのですが、この一年でどんどんそういう人が増えるのを見てドキッとました。&lt;code&gt;いかに信頼を積み上げることが大事か&lt;/code&gt;を見せつけられたような感じがしました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;自分のひとつひとつの行動は信頼に値するものなのか。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;「一期一会」という言葉がありますよね。wikipediaで調べてみると、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;茶会に臨む際には、その機会は二度と繰り返されることのない、一生に一度の出会いであるということを心得て、亭主・客ともに互いに誠意を尽くす心構えを意味する。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ということだそうです。&lt;/p&gt;
+&lt;p&gt;私の気づきからすると、&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;その出会いはまた出会う誰かとつながっているので「気をつけなはれや」！もとい、ひとつひとつの出会いを大切にして誠意を尽くしましょう。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;となります。(笑)&lt;/p&gt;</content><category term="ビジネス"></category><category term="ビジネス"></category><category term="IT業界"></category></entry><entry><title>担当エンジニアがいなくなってしまった</title><link href="/dan-dang-enziniagainakunatsuteshimatsuta.html" rel="alternate"></link><published>2020-09-15T13:00:00+09:00</published><updated>2020-09-15T13:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-15:/dan-dang-enziniagainakunatsuteshimatsuta.html</id><summary type="html">&lt;p&gt;システムを作ってもらったエンジニアがいなくなってしまって保守ができなくなった！？私が「システムを売らないシステム屋」を目指す理由。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;先日参加した経営者団体の集まりに参加した際、ある会社の社長とこんな話をしました。&lt;/h2&gt;
 &lt;p&gt;Yさん:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;システム作ってもらったエンジニアが飛んでしまって、他の業者に頼んだら「他の人が作ったものはメンテナンスできません」っていうねん。そんなエンジニアおかしくない？でもあれは嘘やねん。そのあとメンテナンスしてくれる人見つけてん。&lt;/p&gt;
