@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Pakhuncho Blog</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2020-09-22T14:16:00+09:00</updated><subtitle>システムを売らないシステム屋</subtitle><entry><title>ITエンジニアが3万円のゲーミング・キーボード買ってみた</title><link href="/itenziniaga3mo-yuan-nogemingukibodomai-tsutemita.html" rel="alternate"></link><published>2020-09-22T14:16:00+09:00</published><updated>2020-09-22T14:16:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-22:/itenziniaga3mo-yuan-nogemingukibodomai-tsutemita.html</id><summary type="html">&lt;p&gt;【ロジクールG913のレビュー】 ITエンジニアのキーボードへのこだわり&lt;/p&gt;</summary><content type="html">&lt;p&gt;衝動買いしました。
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Pakhuncho Blog</title><link href="https://hyunwookpark.github.io/" rel="alternate"></link><link href="https://hyunwookpark.github.io/feeds/all.atom.xml" rel="self"></link><id>https://hyunwookpark.github.io/</id><updated>2020-09-22T14:16:00+09:00</updated><subtitle>システムを売らないシステム屋</subtitle><entry><title>ITエンジニアが3万円のゲーミング・キーボード買ってみた</title><link href="https://hyunwookpark.github.io/itenziniaga3mo-yuan-nogemingukibodomai-tsutemita.html" rel="alternate"></link><published>2020-09-22T14:16:00+09:00</published><updated>2020-09-22T14:16:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:hyunwookpark.github.io,2020-09-22:/itenziniaga3mo-yuan-nogemingukibodomai-tsutemita.html</id><summary type="html">&lt;p&gt;【ロジクールG913のレビュー】 ITエンジニアのキーボードへのこだわり&lt;/p&gt;</summary><content type="html">&lt;p&gt;衝動買いしました。
 いや、以前からエンジニアとして最も利用頻度が高いキーボードは
 いいものを買おうと常々思っていたので衝動ではないかもしれませんが、
 いいものが見つかったので買っちゃいました。&lt;/p&gt;
@@ -16,13 +16,13 @@ RGBメカニカル
 
 &lt;h1&gt;テンキーレスとキー配列&lt;/h1&gt;
 &lt;p&gt;ノートパソコンのキーボードは標準的なキー配列とは若干異なるのでこれがかなりのストレスでした。ITエンジニアは「HOME」「END」「Page Up」「Page Down」「DEL」キーを多用しますがほとんどのノートパソコンはこのキーの位置がバラバラでとても使いにくいです。このあたりのキーは感覚で指が動くぐらいになっているので変な場所にあるとまるで使えません。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/notekey.jpg" alt="キーボード比較" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/notekey.jpg" alt="キーボード比較" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;ノートパソコンのキー配列はプログラミングや作業で本当に不便でした。&lt;/p&gt;
 &lt;p&gt;そこで標準的なキー配列の1,000円のキーボードを使っていました。&lt;/p&gt;
 &lt;p&gt;私はプログラミングや仕事でテンキーをほとんど使わないのですが、モニターの前に置くときに真ん中に置きたいんです。でもテンキーありキーボードはホームポジションのF/Jキーが全体の左側にずれてしまって若干姿勢が左向きになるんですよね。F/Jキーの位置に合わせてキーボードを若干右側にずらすと右利きのマウス操作にも邪魔だしモニターの真ん中ではなくなる。。この若干のストレスがずっと続いていました。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/IMG_4427.jpg" alt="新しいキーボード" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/IMG_4427.jpg" alt="新しいキーボード" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;テンキーがなくなって本当にスッキリしました！&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/IMG_4428.jpg" alt="新しいキーボード" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/IMG_4428.jpg" alt="新しいキーボード" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;よく使うキーの配列も問題ないので自然に操作できます。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;右側にもALTキーがあれば完璧です。&lt;/strong&gt;&lt;/p&gt;
 &lt;h1&gt;LIGHTSPEEDワイヤレス&lt;/h1&gt;
@@ -46,7 +46,7 @@ RGBメカニカル
 &lt;p&gt;ずっしりと重さがあって安定感があります。&lt;/p&gt;
 &lt;h1&gt;最後に&lt;/h1&gt;
 &lt;p&gt;ほぼキーボードレビューのようになりましたが、仕事上のわずかなストレスでも一日中使うものなので自分にあった道具にこだわることで気分や能率への影響は大きいですよね。ほぼパソコン触らない日はないので8時間×365日と考えると相当な影響になりそうです。&lt;/p&gt;
-&lt;p&gt;キー配列で考えると能率は1,000円のキーボードのときと大差ないかもしれませんが、テンションはまったく違います。&lt;a href="https://gigazine.net/news/20191114-ibm-mac-productivity/"&gt;IBMの発表&lt;/a&gt;によると従業員のPCをMACに切り替えると大幅に生産性と満足度が増加したという報告があるそうです。それと同じ効果！？（笑）&lt;/p&gt;</content><category term="ITエンジニア"></category><category term="ITエンジニア"></category></entry><entry><title>世の中ホンマにせまい。</title><link href="/shi-nozhong-honmanisemai.html" rel="alternate"></link><published>2020-09-17T21:45:00+09:00</published><updated>2020-09-17T21:45:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-17:/shi-nozhong-honmanisemai.html</id><summary type="html">&lt;p&gt;世界のひとはみんな友達！？&lt;/p&gt;</summary><content type="html">&lt;p&gt;「世の中せまい。」とよく言いますが、この一年つくづくせまいなと感じました。&lt;/p&gt;
+&lt;p&gt;キー配列で考えると能率は1,000円のキーボードのときと大差ないかもしれませんが、テンションはまったく違います。&lt;a href="https://gigazine.net/news/20191114-ibm-mac-productivity/"&gt;IBMの発表&lt;/a&gt;によると従業員のPCをMACに切り替えると大幅に生産性と満足度が増加したという報告があるそうです。それと同じ効果！？（笑）&lt;/p&gt;</content><category term="ITエンジニア"></category><category term="ITエンジニア"></category></entry><entry><title>世の中ホンマにせまい。</title><link href="https://hyunwookpark.github.io/shi-nozhong-honmanisemai.html" rel="alternate"></link><published>2020-09-17T21:45:00+09:00</published><updated>2020-09-17T21:45:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:hyunwookpark.github.io,2020-09-17:/shi-nozhong-honmanisemai.html</id><summary type="html">&lt;p&gt;世界のひとはみんな友達！？&lt;/p&gt;</summary><content type="html">&lt;p&gt;「世の中せまい。」とよく言いますが、この一年つくづくせまいなと感じました。&lt;/p&gt;
 &lt;h1&gt;SESでいろんな会社を訪問する&lt;/h1&gt;
 &lt;p&gt;私はITエンジニアで、SESという業態で長い期間仕事してきました。
 SES(System Engineering Service)とは、簡単に言うと「技術力を提供して一緒にシステム開発しますよ」という仕事の仕方です。&lt;/p&gt;
@@ -107,7 +107,7 @@ facebookには"共通の友達"という機能があって自分の友達が自�
 &lt;blockquote&gt;
 &lt;p&gt;その出会いはまた出会う誰かとつながっているので「気をつけなはれや」！もとい、ひとつひとつの出会いを大切にして誠意を尽くしましょう。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;となります。(笑)&lt;/p&gt;</content><category term="ビジネス"></category><category term="ビジネス"></category><category term="IT業界"></category></entry><entry><title>担当エンジニアがいなくなってしまった</title><link href="/dan-dang-enziniagainakunatsuteshimatsuta.html" rel="alternate"></link><published>2020-09-15T13:00:00+09:00</published><updated>2020-09-15T13:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-15:/dan-dang-enziniagainakunatsuteshimatsuta.html</id><summary type="html">&lt;p&gt;システムを作ってもらったエンジニアがいなくなってしまって保守ができなくなった！？私が「システムを売らないシステム屋」を目指す理由。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;先日参加した経営者団体の集まりに参加した際、ある会社の社長とこんな話をしました。&lt;/h2&gt;
+&lt;p&gt;となります。(笑)&lt;/p&gt;</content><category term="ビジネス"></category><category term="ビジネス"></category><category term="IT業界"></category></entry><entry><title>担当エンジニアがいなくなってしまった</title><link href="https://hyunwookpark.github.io/dan-dang-enziniagainakunatsuteshimatsuta.html" rel="alternate"></link><published>2020-09-15T13:00:00+09:00</published><updated>2020-09-15T13:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:hyunwookpark.github.io,2020-09-15:/dan-dang-enziniagainakunatsuteshimatsuta.html</id><summary type="html">&lt;p&gt;システムを作ってもらったエンジニアがいなくなってしまって保守ができなくなった！？私が「システムを売らないシステム屋」を目指す理由。&lt;/p&gt;</summary><content type="html">&lt;h2&gt;先日参加した経営者団体の集まりに参加した際、ある会社の社長とこんな話をしました。&lt;/h2&gt;
 &lt;p&gt;Yさん:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;システム作ってもらったエンジニアが飛んでしまって、他の業者に頼んだら「他の人が作ったものはメンテナンスできません」っていうねん。そんなエンジニアおかしくない？でもあれは嘘やねん。そのあとメンテナンスしてくれる人見つけてん。&lt;/p&gt;
@@ -224,7 +224,7 @@ facebookには"共通の友達"という機能があって自分の友達が自�
 業務のことを最もわかっているお客様の社員がシステムを作れるようになれば、お客様が開発に関わってくれないという問題も解決する。&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;1企業1システムエンジニア作戦&lt;/code&gt;です。いまや、ITを利用しないビジネスはないとも言われます。農業もAIを導入している時代です。本当は各企業にシステムに詳しい人が一人ぐらいはほしいはず。&lt;/p&gt;
 &lt;p&gt;私の目指すシステム開発とエンジニア教育が一気にできるチャンス！&lt;/p&gt;
-&lt;p&gt;Yさんには本当に感謝です。&lt;/p&gt;</content><category term="システム開発"></category><category term="システム開発"></category><category term="システム保守"></category></entry><entry><title>サイトへのアクセス数見てますか？</title><link href="/saitohenoakusesushu-jian-temasuka.html" rel="alternate"></link><published>2020-09-14T16:13:00+09:00</published><updated>2020-09-14T16:13:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-14:/saitohenoakusesushu-jian-temasuka.html</id><summary type="html">&lt;p&gt;ウェブサイトやブログは作ったけど、どのぐらい見てくれているのかはよくわからない。アクセス数、気にしなくて大丈夫ですか？&lt;/p&gt;</summary><content type="html">&lt;h1&gt;あなたのサイトには毎月どのぐらいアクセス数はいくら？&lt;/h1&gt;
+&lt;p&gt;Yさんには本当に感謝です。&lt;/p&gt;</content><category term="システム開発"></category><category term="システム開発"></category><category term="システム保守"></category></entry><entry><title>サイトへのアクセス数見てますか？</title><link href="https://hyunwookpark.github.io/saitohenoakusesushu-jian-temasuka.html" rel="alternate"></link><published>2020-09-14T16:13:00+09:00</published><updated>2020-09-14T16:13:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:hyunwookpark.github.io,2020-09-14:/saitohenoakusesushu-jian-temasuka.html</id><summary type="html">&lt;p&gt;ウェブサイトやブログは作ったけど、どのぐらい見てくれているのかはよくわからない。アクセス数、気にしなくて大丈夫ですか？&lt;/p&gt;</summary><content type="html">&lt;h1&gt;あなたのサイトには毎月どのぐらいアクセス数はいくら？&lt;/h1&gt;
 &lt;p&gt;マーケティングの観点からもアクセスの分析は有効です。&lt;/p&gt;
 &lt;p&gt;例えばあなたのサイトに無料体験申込のページがあるとしましょう。
 サイトへのアクセス数とサイト内の無料体験申込の比率を知ることで、単純に言えばアクセス数を2倍にすることで申込が2倍になる可能性があります。
@@ -233,15 +233,15 @@ facebookには"共通の友達"という機能があって自分の友達が自�
 まずは各タイミングの数を知ることからはじめて、お客様の気持ちを知りましょう。&lt;/p&gt;
 &lt;h1&gt;Google Analytics&lt;/h1&gt;
 &lt;p&gt;手軽にサイトへのアクセスを確認できるものとしてGoogle Analyticsがあります。&lt;/p&gt;
-&lt;p&gt;&lt;img alt="google analytics" src="/images/logo_lockup_analytics_icon_vertical_black_2x.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img alt="google analytics" src="https://hyunwookpark.github.io/images/logo_lockup_analytics_icon_vertical_black_2x.png"&gt;&lt;/p&gt;
 &lt;p&gt;https://analytics.google.com/&lt;/p&gt;
 &lt;p&gt;例として、私のqiitaの投稿に対するアクセス数のグラフを掲載します。
 これは2年間のアクセス数の推移ですが、徐々に上がって最近は停滞していることがわかります。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-myqiita-1.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-myqiita-1.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;またこちらを見ると平日の業務時間あたりにアクセスが集中していることがわかります。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-myqiita-2.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-myqiita-2.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;さらにどのページが人気なのかもわかります。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-myqiita-3.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-myqiita-3.png" alt="qiitaのアクセス" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;他にも検索エンジンから来たのか直接ブックマークなどから来たのか、どの国からのアクセスが多いのか、など色んなことがわかります。&lt;/p&gt;
 &lt;h1&gt;Google Analytics 導入手順&lt;/h1&gt;
 &lt;p&gt;導入手順を軽く確認しておきます。&lt;/p&gt;
@@ -270,18 +270,18 @@ facebookには"共通の友達"という機能があって自分の友達が自�
 &lt;/table&gt;
 &lt;h3&gt;アカウントの追加&lt;/h3&gt;
 &lt;p&gt;左下の「管理」のボタンを押して、「アカウント作成」を選ぶ。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-01.png" alt="手順1" class="img-fluid"&gt;
-&lt;img src="/images/google_anlytics-00.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-01.png" alt="手順1" class="img-fluid"&gt;
+&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-00.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;アカウント名を入力して「次へ」を押す。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-02.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-02.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;通常のWebサイトなら「ウェブ」を選択して「次へ」を押す。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-03.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-03.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;サイト名やURLを入力し「作成」を押す。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-04.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-04.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;利用規約を確認する。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-05.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-05.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;
 &lt;p&gt;トラッキング情報を確認してサイトに貼り付ける。&lt;/p&gt;
-&lt;p&gt;&lt;img src="/images/google_anlytics-06.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;</content><category term="ウェブサイト"></category><category term="ウェブサイト"></category><category term="ブログ"></category></entry><entry><title>ブログ始めます</title><link href="/burogushi-memasu.html" rel="alternate"></link><published>2020-09-14T16:00:00+09:00</published><updated>2020-09-14T16:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:None,2020-09-14:/burogushi-memasu.html</id><summary type="html">&lt;p&gt;自己紹介とブログをはじめた理由、エンジニアらしい？ブログ管理についてもふれています。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;自己紹介&lt;/h1&gt;
+&lt;p&gt;&lt;img src="https://hyunwookpark.github.io/images/google_anlytics-06.png" alt="手順1" class="img-fluid"&gt;&lt;/p&gt;</content><category term="ウェブサイト"></category><category term="ウェブサイト"></category><category term="ブログ"></category></entry><entry><title>ブログ始めます</title><link href="https://hyunwookpark.github.io/burogushi-memasu.html" rel="alternate"></link><published>2020-09-14T16:00:00+09:00</published><updated>2020-09-14T16:00:00+09:00</updated><author><name>HyunwookPark</name></author><id>tag:hyunwookpark.github.io,2020-09-14:/burogushi-memasu.html</id><summary type="html">&lt;p&gt;自己紹介とブログをはじめた理由、エンジニアらしい？ブログ管理についてもふれています。&lt;/p&gt;</summary><content type="html">&lt;h1&gt;自己紹介&lt;/h1&gt;
 &lt;p&gt;はじめまして。朴 玄旭(박 현욱 ぱく ひょぬ) です。&lt;/p&gt;
 &lt;p&gt;10歳に日本に来た韓国人です。&lt;code&gt;Planaria Inc.&lt;/code&gt;というIT会社を経営しています。
 現役でシステムエンジニアもやっていてエンジニア歴は17年ほどです。&lt;/p&gt;
