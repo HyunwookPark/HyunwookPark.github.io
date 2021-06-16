@@ -2,6 +2,12 @@
   {"word":"<html>", "mean":""},
   {"word":"<body>", "mean":""},
   {"word":"<div>", "mean":""},
-  {"word":"<input type=\"", "mean":""},
+  {"word":"<span>", "mean":""},
+  {"word":"<table>", "mean":""},
+  {"word":"<tr>", "mean":""},
+  {"word":"<td>", "mean":""},
+  {"word":"type=\"text\"", "mean":""},
+  {"word":"class=\"test\"", "mean":""},
+  {"word":"href=\"http://google.com/\"", "mean":""},
   {"word":"option", "mean":""}
 ]
