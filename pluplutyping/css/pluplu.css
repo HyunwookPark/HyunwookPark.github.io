@@ -6,9 +6,11 @@ body {
 }
 #appinfo {
 }
-#apptitle {
+#apptitle a {
   font-family: "Nico Moji";
   font-size: 5em;
+  color: #8C00B3;
+  text-decoration: none;
 }
 #appversion {
   font-family: "Nico Moji";
@@ -23,16 +25,19 @@ body {
 #go {
   font-family: "Nico Moji";
   font-size: 3em;
-  background-color: #faa;
+  background-color: #70B300;
   border-radius: 10px;
   margin: auto;
   width: 600px;
   padding: 20px;
 }
+#go:hover {
+  background-color: #A0FF00;
+}
 #start {
   font-family: "Nico Moji";
   font-size: 3em;
-  background-color: #faa;
+  background-color: #70B300;
   border-radius: 10px;
   margin: auto;
   width: 500px;
@@ -46,17 +51,17 @@ body {
 }
 #start:active {
   background-color: #aaf;
-  animation: go 1s 1;
+  animation: move 1s 1;
 }
 .started {
   display: none;
 }
 @keyframes waiting {
-  0% { width: 500px; background-color: #faa; }
-  50% { width: 550px; background-color: #aaf; }
-  100% { width: 500px; background-color: #faa; }
+  0% { width: 500px; background-color: #70B300; }
+  50% { width: 550px; background-color: #A0FF00; }
+  100% { width: 500px; background-color: #70B300; }
 }
-@keyframes go {
+@keyframes move {
   0% { background-color: #aaf }
   100% { background-color: #fff }
 }
@@ -121,7 +126,7 @@ ul#target li.success {
 }
 
 #keybord {
-  border: solid 5px #555;
+  border: solid 5px #8C00B3;
   overflow: hidden;
   width: 1200px;
   margin: auto;
@@ -158,26 +163,24 @@ ul#target li.success {
   width: 50px;
 }
 #keybord .left1,.left2,.left3,.left4 {
-  border: solid 2px #aaf;
+  border: solid 2px #CA01FF;
 }
 #keybord .right1,.right2,.right3,.right4 {
-  border: solid 2px #faa;
+  border: solid 2px #70B300;
 }
 #keybord .home {
-  border: solid 2px #f00;
+  border: solid 2px #00f;
 }
 
 #finger {
   overflow: hidden;
   margin: auto;
-  /* border: solid 1px red; */
   width: 660px;
 }
 
 #finger .outside {
   float: left;
   position: relative;
-  /* border: solid 1px green; */
   height: 150px;
   width: 60px;
   /* text-align: center; */
@@ -192,10 +195,10 @@ ul#target li.success {
   margin-left: 5px;
 }
 #finger .left {
-  border: solid 2px #aaf;
+  border: solid 2px #CA01FF;
 }
 #finger .right {
-  border: solid 2px #faa;
+  border: solid 2px #70B300;
 }
 
 #finger .thumb {
@@ -214,5 +217,5 @@ ul#target li.success {
   height: 60px;
 }
 .target {
-  background-color: #afa;
+  background-color: #A0FF00;
 }
