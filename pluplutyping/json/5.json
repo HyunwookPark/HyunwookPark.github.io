@@ -13,6 +13,7 @@
   {"word":"<tr>", "mean":"テーブルの行"},
   {"word":"<td>", "mean":"テーブルの列"},
   {"word":"<a>", "mean":"リンク"},
+  {"word":"<select>", "mean":"セレクトボックス"},
   {"word":"submit", "mean":"送信"},
   {"word":"button", "mean":"ボタン"},
   {"word":"type=\"text\"", "mean":"input要素のtype属性:text"},
@@ -21,5 +22,5 @@
   {"word":"type=\"radio\"", "mean":"input要素のtype属性:ラジオボタン"},
   {"word":"class=\"test\"", "mean":"タグのクラス属性"},
   {"word":"href=\"http://google.com/\"", "mean":"リンクの遷移先属性"},
-  {"word":"<option>", "mean":""}
+  {"word":"<option>", "mean":"セレクトボックスの選択肢"}
 ]
