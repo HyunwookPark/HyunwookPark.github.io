@@ -20,13 +20,22 @@ body {
 #current {
   display: none;
 }
+#go {
+  font-family: "Nico Moji";
+  font-size: 3em;
+  background-color: #faa;
+  border-radius: 10px;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
 #start {
   font-family: "Nico Moji";
   font-size: 3em;
   background-color: #faa;
   border-radius: 10px;
   margin: auto;
-  width: 300px;
+  width: 500px;
   padding: 20px;
   animation: waiting 1s infinite;
 }
@@ -43,9 +52,9 @@ body {
   display: none;
 }
 @keyframes waiting {
-  0% { width: 300px; background-color: #faa; }
-  50% { width: 350px; background-color: #aaf; }
-  100% { width: 300px; background-color: #faa; }
+  0% { width: 500px; background-color: #faa; }
+  50% { width: 550px; background-color: #aaf; }
+  100% { width: 500px; background-color: #faa; }
 }
 @keyframes go {
   0% { background-color: #aaf }

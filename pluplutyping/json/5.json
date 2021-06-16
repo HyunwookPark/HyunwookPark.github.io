@@ -1,13 +1,24 @@
 [
   {"word":"<html>", "mean":""},
+  {"word":"<head>", "mean":""},
+  {"word":"<title>", "mean":""},
+  {"word":"<img>", "mean":""},
   {"word":"<body>", "mean":""},
   {"word":"<div>", "mean":""},
+  {"word":"<ul>", "mean":""},
+  {"word":"<li>", "mean":""},
+  {"word":"<ol>", "mean":""},
   {"word":"<span>", "mean":""},
   {"word":"<table>", "mean":""},
   {"word":"<tr>", "mean":""},
   {"word":"<td>", "mean":""},
+  {"word":"submit", "mean":""},
+  {"word":"button", "mean":""},
   {"word":"type=\"text\"", "mean":""},
+  {"word":"type=\"hidden\"", "mean":""},
+  {"word":"type=\"checkbox\"", "mean":""},
+  {"word":"type=\"radio\"", "mean":""},
   {"word":"class=\"test\"", "mean":""},
   {"word":"href=\"http://google.com/\"", "mean":""},
-  {"word":"option", "mean":""}
+  {"word":"<option>", "mean":""}
 ]

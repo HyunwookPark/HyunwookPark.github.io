@@ -37,9 +37,8 @@
     <div id="appversion">ver.0.5</div>
   </div>
   <div id="typingapp" v-cloak>
-    <div id="start" v-bind:class="{started: isStarted}" v-on:click="start">START</div>
-    <div id="config" v-bind:class="{started: isStarted}">
-      <div>音声:<input type="text" v-model="voice"></input></div>
+    <div id="config" v-bind:class="{started: isEntered}">
+      <!-- <div>音声:<input type="text" v-model="voice"></input></div> -->
       <div>
         タイピングデータ:
         <select v-model="datakbn">
@@ -51,13 +50,9 @@
         </select>
       </div>
     </div>
-    <div v-bind:class="{started: !isStarted}">
-      <div id="count">点数: {{okcount - ngcount}}</div>
-      <div id="ok">成功: {{okcount}}</div>
-      <div id="ng">失敗: {{ngcount}}</div>
-      <div id="current">current: {{current}}</div>
-    </div>
-    <div id="stage">
+    <div id="go" v-bind:class="{started: isEntered}" v-on:click="go">Let's Go!</div>
+    <div id="stage" v-bind:class="{started: !isEntered}">
+      <div id="start" v-bind:class="{started: isStarted}">Press Space</div>
       <ul id="target">
         <li v-for="w in currentWord">{{w}}</li>
       </ul>
@@ -146,13 +141,19 @@
         <div class="outside"><div class="right ring right3oya"></div></div>
         <div class="outside"><div class="right little right4oya"></div></div>
       </div>
-    </div>
-    <div>
-      finger:
-      <select v-model="onFinger" v-on:click="test">
-        <option value="1">ON</option>
-        <option value="0">OFF</option>
-      </select>
+      <div>
+        finger:
+        <select v-model="onFinger" v-on:click="test">
+          <option value="1">ON</option>
+          <option value="0">OFF</option>
+        </select>
+      </div>
+      <div>
+        <div id="count">点数: {{okcount - ngcount}}</div>
+        <div id="ok">成功: {{okcount}}</div>
+        <div id="ng">失敗: {{ngcount}}</div>
+        <div id="current">current: {{current}}</div>
+      </div>
     </div>
   </div>
   <!-- <p class="info">

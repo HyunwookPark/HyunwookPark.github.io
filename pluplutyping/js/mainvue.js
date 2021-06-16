@@ -9,6 +9,7 @@
       current: 1,
       words: [],
       isStarted: false,
+      isEntered: false,
       currentWord: '',
       mean: '',
       voice: 1,
@@ -36,9 +37,9 @@
       rmClass: function() {
         $("#target li").removeClass("success");
       },
-      start: function() {
-        // console.log("start");
-        this.isStarted = true;
+      go: function() {
+        // console.log("go");
+        this.isEntered = true;
         console.log("datakbn" + this.datakbn);
         var _this = this;
         // axios.get('words/' + this.datakbn)
@@ -50,7 +51,7 @@
           // this.words = response;
           // _this.words = [{"word":"ibis", "mean":"コウノトリ、トキ"}];
           // _this.playSound(go);
-          _this.shuffle();
+          // _this.shuffle();
         })
         .catch(function (error) {
           console.log(error);
@@ -71,6 +72,10 @@
         // } else if (this.datakub === "5") {
         // }
       },
+      start: function() {
+        this.isStarted = true;
+        this.shuffle();
+      },
       playSound: function(sound) {
         sound.pause();
         sound.currentTime = 0;
@@ -83,33 +88,35 @@
         //OKの音を出す
         this.playSound(oksound);
         //#COUNTの数字を1足す
-        if (this.datakbn === "1") {
-          this.okcount++;
-        } else if (this.datakbn === "2") {
-          this.okcount += 2;
-        } else if (this.datakbn === "3") {
-          this.okcount+= 3;
-        } else if (this.datakbn === "4") {
-          this.okcount+= 3;
-        } else if (this.datakbn === "5") {
-          this.okcount+= 3;
-        }
+        this.okcount++;
+        // if (this.datakbn === "1") {
+        //   this.okcount++;
+        // } else if (this.datakbn === "2") {
+        //   this.okcount += 2;
+        // } else if (this.datakbn === "3") {
+        //   this.okcount+= 3;
+        // } else if (this.datakbn === "4") {
+        //   this.okcount+= 3;
+        // } else if (this.datakbn === "5") {
+        //   this.okcount+= 3;
+        // }
       },
       countNG: function() {
         //OKの音を出す
         this.playSound(ngsound);
         //#COUNTの数字を1引く
-        if (this.datakbn === "1") {
-          this.ngcount++;
-        } else if (this.datakbn === "2") {
-          this.ngcount += 2;
-        } else if (this.datakbn === "3") {
-          this.ngcount += 3;
-        } else if (this.datakbn === "4") {
-          this.ngcount += 3;
-        } else if (this.datakbn === "5") {
-          this.ngcount += 3;
-        }
+        this.ngcount++;
+        // if (this.datakbn === "1") {
+        //   this.ngcount++;
+        // } else if (this.datakbn === "2") {
+        //   this.ngcount += 2;
+        // } else if (this.datakbn === "3") {
+        //   this.ngcount += 3;
+        // } else if (this.datakbn === "4") {
+        //   this.ngcount += 3;
+        // } else if (this.datakbn === "5") {
+        //   this.ngcount += 3;
+        // }
       },
       say: function() {
         var synth = window.speechSynthesis;
@@ -129,9 +136,16 @@
   });
 
   $("body").keypress(function( e ) {
-    console.log(e.key);
-    if (!vm.isStarted) {
-      if (13 === e.keyCode) {
+    console.log(e.key + ":" + e.keyCode);
+    console.log("vm.isEntered" + vm.isEntered);
+    console.log("vm.isStarted" + vm.isStarted);
+    if (!vm.isEntered) {
+      if (32 == e.keyCode) {
+        vm.go();
+      }
+    } else if (!vm.isStarted) {
+      console.log("start");
+      if (32 == e.keyCode) {
         vm.start();
       }
     } else {
