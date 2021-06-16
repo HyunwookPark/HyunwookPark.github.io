@@ -43,7 +43,7 @@
         var _this = this;
         // axios.get('words/' + this.datakbn)
         axios
-        .get('https://hyunwookpark.github.io/pluplutyping/json/1.json')
+        .get('https://hyunwookpark.github.io/pluplutyping/json/' + this.datakbn + '.json')
         .then(function (response) {
           console.log(response.data);
           _this.words = response.data;

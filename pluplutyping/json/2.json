@@ -1,0 +1,18 @@
+[
+  {"word":"raspberry", "mean":"ラズベリー"},
+  {"word":"cookie", "mean":"クッキー"},
+  {"word":"chocolate", "mean":"チョコレート"},
+  {"word":"strawberry", "mean":"苺(いちご)"},
+  {"word":"milk", "mean":"牛乳(ぎゅうにゅう)"},
+  {"word":"sugar", "mean":"砂糖(さとう)"},
+  {"word":"dessert", "mean":"デザート"},
+  {"word":"jelly", "mean":"ゼリー"},
+  {"word":"cream", "mean":"クリーム"},
+  {"word":"sweet", "mean":"甘い(可愛い)"},
+  {"word":"candy", "mean":"飴(あめ)"},
+  {"word":"marshmallow", "mean":"マシュマロ"},
+  {"word":"cherrypie", "mean":"チェリーパイ"},
+  {"word":"peach", "mean":"桃(もも)"},
+  {"word":"biscuit", "mean":"ビスケット"},
+  {"word":"waffle", "mean":"ワッフル"}
+]
