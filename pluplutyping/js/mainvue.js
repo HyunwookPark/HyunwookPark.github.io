@@ -7,7 +7,7 @@
       okcount: 0,
       ngcount: 0,
       current: 1,
-      words: easy,
+      words: [],
       isStarted: false,
       currentWord: '',
       mean: '',
@@ -23,7 +23,9 @@
       shuffle: function() {
         this.current = 1;
         setTimeout(function() {
+          console.log(vm.words.length);
           var index = Math.floor(Math.random() * vm.words.length);
+          console.log(vm.words[0]);
           vm.currentWord = vm.words[index].word;
           vm.mean = vm.words[index].mean;
           vm.rmClass();
@@ -40,7 +42,8 @@
         console.log("datakbn" + this.datakbn);
         var _this = this;
         // axios.get('words/' + this.datakbn)
-        axios.get('https://hyunwookpark.github.io/pluplutyping/1.json')
+        axios
+        .get('https://hyunwookpark.github.io/pluplutyping/json/1.json')
         .then(function (response) {
           console.log(response.data);
           _this.words = response.data;
