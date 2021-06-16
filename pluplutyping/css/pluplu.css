@@ -1,0 +1,209 @@
+body {
+  font-family: "Mplus 1p";
+  font-weight: 700;
+  padding-top: 40px;
+  text-align: center;
+}
+#appinfo {
+}
+#apptitle {
+  font-family: "Nico Moji";
+  font-size: 5em;
+}
+#appversion {
+  font-family: "Nico Moji";
+  font-size: 1em;
+  display: none;
+}
+#typingapp {
+}
+#current {
+  display: none;
+}
+#start {
+  font-family: "Nico Moji";
+  font-size: 3em;
+  background-color: #faa;
+  border-radius: 10px;
+  margin: auto;
+  width: 300px;
+  padding: 20px;
+  animation: waiting 1s infinite;
+}
+#start:hover {
+  /* box-shadow: 5px 5px 2px 2px #ddd; */
+  cursor: hand;
+  animation: none;
+}
+#start:active {
+  background-color: #aaf;
+  animation: go 1s 1;
+}
+.started {
+  display: none;
+}
+@keyframes waiting {
+  0% { width: 300px; background-color: #faa; }
+  50% { width: 350px; background-color: #aaf; }
+  100% { width: 300px; background-color: #faa; }
+}
+@keyframes go {
+  0% { background-color: #aaf }
+  100% { background-color: #fff }
+}
+
+.warning {
+  font-size: 1.5em;
+  color: #ccc;
+}
+#mean {
+  font-family: "Rounded Mplus 1c";
+  font-size: 3em;
+  font-weight: 900;
+}
+/*#stage {
+  background-color: #ffa;
+  height: 300px;
+  line-height: 300px;
+}*/
+#target {
+  /*font-size: 48px;*/
+  letter-spacing: 3px;
+}
+ul#target li {
+  background-color: #faa;
+  color: #fff;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 80px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  margin: 0px 2px;
+  padding: 0px;
+  display: inline-grid;
+}
+ul#target li.success {
+  background-color: #faa;
+  color: #fbb;
+  animation: pululung 1s 1;
+  /*border: 2px solid #faa;*/
+}
+@keyframes pululung {
+  /*from {
+    transform: translate(0px, 0px) rotateZ(0deg)
+  }
+  to {
+    transform: translate(2px, 2px) rotateZ(1deg)
+  }*/
+  5%  { transform: scale(1.1, .8); }
+  10% { transform: scale(.8, 1.1) translateY(-5px); }
+  15% { transform: scale(1, 1); }
+}
+.half-circle-lo {
+  margin: 40px 0;
+  margin: 2.5rem 0;
+}
+.half-circle-mod {
+  background: #999;
+  height: 50px;
+  width: 100px;
+  behavior: url(/PIE.htc);
+}
+
+#keybord {
+  border: solid 1px #555;
+  overflow: hidden;
+  width: 1200px;
+  margin: auto;
+  font-family: "Mplus 1p";
+  font-size: 1.3em;
+  border-radius: 5px;
+}
+#keybord .line {
+  display: block;
+  /* border: solid 1px pink; */
+  /* width: 1000px; */
+  height: 30px;
+}
+#keybord .line:nth-child(2) {
+  margin-left: 40px;
+}
+#keybord .line:nth-child(3) {
+  margin-left: 80px;
+}
+#keybord .line:nth-child(4) {
+  margin-left: 120px;
+}
+#keybord .key {
+  float: left;
+  width: 80px;
+  /* border: solid 1px #000; */
+  padding: 2px;
+  margin: 1px;
+  border-radius: 5px;
+}
+#keybord .blank {
+  float: left;
+  height: 30px;
+  width: 50px;
+}
+#keybord .left1,.left2,.left3,.left4 {
+  border: solid 1px #aaf;
+}
+#keybord .right1,.right2,.right3,.right4 {
+  border: solid 1px #faa;
+}
+#keybord .home {
+  border: solid 3px #aaf;
+}
+
+#finger {
+  overflow: hidden;
+  margin: auto;
+  /* border: solid 1px red; */
+  width: 660px;
+}
+
+#finger .outside {
+  float: left;
+  position: relative;
+  /* border: solid 1px green; */
+  height: 150px;
+  width: 60px;
+  /* text-align: center; */
+}
+#finger .left,.right {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  /* background-color: #faa; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-left: 5px;
+}
+#finger .left {
+  border: solid 2px #aaf;
+}
+#finger .right {
+  border: solid 2px #faa;
+}
+
+#finger .thumb {
+  height: 40px;
+}
+#finger .index {
+  height: 95px;
+}
+#finger .middle {
+  height: 120px;
+}
+#finger .ring {
+  height: 100px;
+}
+#finger .little {
+  height: 60px;
+}
+.target {
+  background-color: #afa;
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74409889-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-74409889-1');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="cache-control" content="no-store" />
+  <meta http-equiv="expires" content="0" />
+  <meta name="description" content="打つ文字がぷるぷるするタイピングゲーム" />
+	<meta name="keywords" content="タイピングゲーム, ぷるぷる, typing game" />
+  <title>ぷるぷるタイピングゲーム</title>
+  <!-- <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> <!-- Archivo Black タイピング文字の部分 -->
+  <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" /> <!-- ニコ文字 -->
+  <link href="https://fonts.googleapis.com/earlyaccess/mplus1p.css" rel="stylesheet" /> <!-- M+ 1p 日本語 -->
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet" /> <!-- はんなり文字 -->
+  <link href="https://fonts.googleapis.com/earlyaccess/roundedmplus1c.css" rel="stylesheet" /> <!-- Rounded M+ 1c -->
+  <link href="css/pluplu.css" rel="stylesheet" />
+  <style>
+  [v-cloak] {
+    display:none;
+  }
+  </style>
+</head>
+<body>
+  <div id="appinfo">
+    <div id="apptitle">ぷるぷるタイピング</div>
+    <div id="appversion">ver.0.5</div>
+  </div>
+  <div id="typingapp" v-cloak>
+    <div id="start" v-bind:class="{started: isStarted}" v-on:click="start">START</div>
+    <div id="config" v-bind:class="{started: isStarted}">
+      <div>音声:<input type="text" v-model="voice"></input></div>
+      <div>
+        タイピングデータ:
+        <select v-model="datakbn">
+          <option value="1">かんたん</option>
+          <option value="2">食べ物英単語</option>
+          <option value="3">難しい英単語</option>
+          <option value="4">PPAP</option>
+          <option value="5">IT関連</option>
+        </select>
+      </div>
+    </div>
+    <div v-bind:class="{started: !isStarted}">
+      <div id="count">点数: {{okcount - ngcount}}</div>
+      <div id="ok">成功: {{okcount}}</div>
+      <div id="ng">失敗: {{ngcount}}</div>
+      <div id="current">current: {{current}}</div>
+    </div>
+    <div id="stage">
+      <ul id="target">
+        <li v-for="w in currentWord">{{w}}</li>
+      </ul>
+      <div id="mean">{{mean}}</div>
+      <!-- <div class="warning">※音がしますのでご注意ください。</div> -->
+      <!-- <div class="warning">※HTML5 + CSS3 + Vue.jsでできています。</div> -->
+      <div id="keybord" v-bind:class="{started: onKeybord == '0'}">
+        <div class="line">
+          <div class="key left1">1</div>
+          <div class="key left2">2</div>
+          <div class="key left3">3</div>
+          <div class="key left4">4</div>
+          <div class="key left4">5</div>
+          <div class="blank"></div>
+          <div class="key right1">6</div>
+          <div class="key right1">7</div>
+          <div class="key right2">8</div>
+          <div class="key right3">9</div>
+          <div class="key right4">0</div>
+          <div class="key right4">-</div>
+          <div class="key right4">^</div>
+          <div class="key right4">\</div>
+        </div>
+        <div class="line">
+          <div class="key left1">Q</div>
+          <div class="key left2">W</div>
+          <div class="key left3">E</div>
+          <div class="key left4">R</div>
+          <div class="key left4">T</div>
+          <div class="blank"></div>
+          <div class="key right1">Y</div>
+          <div class="key right1">U</div>
+          <div class="key right2">I</div>
+          <div class="key right3">O</div>
+          <div class="key right4">P</div>
+          <div class="key right4">@</div>
+          <div class="key right4">[</div>
+        </div>
+        <div class="line">
+          <div class="key left1">A</div>
+          <div class="key left2">S</div>
+          <div class="key left3">D</div>
+          <div class="key left4">F</div>
+          <div class="key left4">G</div>
+          <div class="blank"></div>
+          <div class="key right1">H</div>
+          <div class="key right1">J</div>
+          <div class="key right2">K</div>
+          <div class="key right3">L</div>
+          <div class="key right4">;</div>
+          <div class="key right4">:</div>
+          <div class="key right4">]</div>
+        </div>
+        <div class="line">
+          <div class="key left1">Z</div>
+          <div class="key left2">X</div>
+          <div class="key left3">C</div>
+          <div class="key left4">V</div>
+          <div class="key left4">B</div>
+          <div class="blank"></div>
+          <div class="key right1">N</div>
+          <div class="key right1">M</div>
+          <div class="key right2">,</div>
+          <div class="key right3">.</div>
+          <div class="key right4">/</div>
+          <div class="key right4">\</div>
+        </div>
+      </div>
+      <div>
+        keybord:
+        <select v-model="onKeybord" v-on:click="test">
+          <option value="1">ON</option>
+          <option value="0">OFF</option>
+        </select>
+      </div>
+      <div id="finger" v-bind:class="{started: onFinger == '0'}">
+        <div class="outside"><div class="left little left1oya"></div></div>
+        <div class="outside"><div class="left ring left2oya"></div></div>
+        <div class="outside"><div class="left middle left3oya"></div></div>
+        <div class="outside"><div class="left index left4oya"></div></div>
+        <div class="outside"><div class="left thumb"></div></div>
+        <div class="outside"></div>
+        <div class="outside"><div class="right thumb"></div></div>
+        <div class="outside"><div class="right index right1oya"></div></div>
+        <div class="outside"><div class="right middle right2oya"></div></div>
+        <div class="outside"><div class="right ring right3oya"></div></div>
+        <div class="outside"><div class="right little right4oya"></div></div>
+      </div>
+    </div>
+    <div>
+      finger:
+      <select v-model="onFinger" v-on:click="test">
+        <option value="1">ON</option>
+        <option value="0">OFF</option>
+      </select>
+    </div>
+  </div>
+  <!-- <p class="info">
+    Letters count: <span id="score"></span>,
+    Miss count: <span id="miss"></span>,
+    Remaining Time: <span id="timer"></span>
+  </p> -->
+  <audio id="ready"><source src="sound/info-girl1_info-girl1-ready1.mp3" type="audio/mp3"></audio>
+  <audio id="go"><source src="sound/info-girl1_info-girl1-go2.mp3" type="audio/mp3"></audio>
+  <audio id="oksound"><source src="sound/puyon1.mp3" type="audio/mp3"></audio>
+  <audio id="ngsound"><source src="sound/stupid2.mp3" type="audio/mp3"></audio>
+  <audio id="o"><source src="sound/line-girl1_line-girl1-o1.mp3" type="audio/mp3"></audio>
+  <audio id="oo"><source src="sound/line-girl1_line-girl1-oo2.mp3" type="audio/mp3"></audio>
+  <audio id="uwaa"><source src="sound/line-girl1_line-girl1-uwaa1.mp3" type="audio/mp3"></audio>
+  <audio id="wow"><source src="sound/line-girl1_line-girl1-wow1.mp3" type="audio/mp3"></audio>
+  <audio id="hyaa"><source src="sound/line-girl1_line-girl1-hyaa1.mp3" type="audio/mp3"></audio>
+  <audio id="nandeyanen"><source src="sound/line-girl1_line-girl1-nandeyanen1.mp3" type="audio/mp3"></audio>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <!-- <script src="js/wordsdata.js"></script> -->
+  <script src="js/mainvue.js"></script>
+</body>
+</html>
