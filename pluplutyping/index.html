@@ -17,6 +17,7 @@
   <meta http-equiv="expires" content="0" />
   <meta name="description" content="打つ文字がぷるぷるするタイピングゲーム" />
 	<meta name="keywords" content="タイピングゲーム, ぷるぷる, typing game" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ぷるぷるタイピングゲーム</title>
   <!-- <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet"> <!-- Archivo Black タイピング文字の部分 -->
@@ -33,14 +34,15 @@
 </head>
 <body>
   <div id="appinfo">
-    <div id="apptitle">ぷるぷるタイピング</div>
+    <div id="apptitle"><a href="https://hyunwookpark.github.io/pluplutyping/">ぷるぷるタイピング</a></div>
     <div id="appversion">ver.0.5</div>
   </div>
   <div id="typingapp" v-cloak>
     <div id="config" v-bind:class="{started: isEntered}">
       <!-- <div>音声:<input type="text" v-model="voice"></input></div> -->
+      <div>※モードを選択肢して「Let's Go!」ボタンを押してください。</div>
       <div>
-        タイピングデータ:
+        モード選択:
         <select v-model="datakbn">
           <option value="1">かんたん</option>
           <option value="2">食べ物英単語</option>
@@ -95,11 +97,11 @@
           <div class="key left1">A</div>
           <div class="key left2">S</div>
           <div class="key left3">D</div>
-          <div class="key left4">F</div>
+          <div class="key left4 home">F</div>
           <div class="key left4">G</div>
           <div class="blank"></div>
           <div class="key right1">H</div>
-          <div class="key right1">J</div>
+          <div class="key right1 home">J</div>
           <div class="key right2">K</div>
           <div class="key right3">L</div>
           <div class="key right4">;</div>
@@ -174,7 +176,6 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
-  <!-- <script src="js/wordsdata.js"></script> -->
   <script src="js/mainvue.js"></script>
 </body>
 </html>

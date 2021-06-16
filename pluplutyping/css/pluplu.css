@@ -121,7 +121,7 @@ ul#target li.success {
 }
 
 #keybord {
-  border: solid 1px #555;
+  border: solid 5px #555;
   overflow: hidden;
   width: 1200px;
   margin: auto;
@@ -148,7 +148,7 @@ ul#target li.success {
   float: left;
   width: 80px;
   /* border: solid 1px #000; */
-  padding: 2px;
+  /* padding: 2px; */
   margin: 1px;
   border-radius: 5px;
 }
@@ -158,13 +158,13 @@ ul#target li.success {
   width: 50px;
 }
 #keybord .left1,.left2,.left3,.left4 {
-  border: solid 1px #aaf;
+  border: solid 2px #aaf;
 }
 #keybord .right1,.right2,.right3,.right4 {
-  border: solid 1px #faa;
+  border: solid 2px #faa;
 }
 #keybord .home {
-  border: solid 3px #aaf;
+  border: solid 2px #f00;
 }
 
 #finger {
