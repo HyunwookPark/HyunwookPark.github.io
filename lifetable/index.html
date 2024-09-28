@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Table</title>
+  <!-- Vue 3 CDN -->
+  <script type="module">
+    import { createApp } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js';
+
+    const app = createApp({
+      data() {
+        return {
+          birthdate: "", // ユーザーが入力する誕生日
+          maxAge: 90,
+          lifeTable: []
+        };
+      },
+      methods: {
+        // 誕生日からライフテーブルを生成
+        getLifeTable() {
+          if (!this.birthdate) return []; // 誕生日が未入力の場合は空
+          
+          const birthDateObj = new Date(this.birthdate);
+          const currentDate = new Date();
+          const currentAge = Math.floor((currentDate - birthDateObj) / (365.25 * 24 * 60 * 60 * 1000));
+          const weeksPassed = Math.floor((currentDate - birthDateObj) / (7 * 24 * 60 * 60 * 1000));
+
+          const lifeTable = [];
+          for (let age = 0; age <= this.maxAge; age++) {
+            const weeks = [];
+            if (age < currentAge) {
+              // 過去の年: 全て経過
+              for (let i = 0; i < 52; i++) {
+                weeks.push({ passed: true, index: i });
+              }
+            } else if (age === currentAge) {
+              // 現在の年: 経過した週と残りの週を分ける
+              const weeksThisYear = weeksPassed % 52;
+              for (let i = 0; i < 52; i++) {
+                weeks.push({ passed: i < weeksThisYear, index: i });
+              }
+            } else {
+              // 残りの年: 全て未経過
+              for (let i = 0; i < 52; i++) {
+                weeks.push({ passed: false, index: i });
+              }
+            }
+            lifeTable.push(weeks);
+          }
+          return lifeTable;
+        },
+        // 年齢を2桁表示
+        twoDigits(value) {
+          return value.toString().padStart(2, '0');
+        },
+        // 誕生日が変更されたらライフテーブルを更新
+        updateLifeTable() {
+          this.lifeTable = this.getLifeTable();
+        }
+      }
+    });
+
+    app.mount('#app');
+  </script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .life-table {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .year-row {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .week-block {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 1px;
+      text-align: center;
+    }
+    .week-filled {
+      background-color: #000;
+    }
+    .week-empty {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="app">
+    <h1>Life Table</h1>
+    <label for="birthdate">誕生日を入力してください: </label>
+    <input type="date" id="birthdate" v-model="birthdate" @change="updateLifeTable">
+
+    <div v-if="lifeTable.length" class="life-table">
+      <div v-for="(weeks, age) in lifeTable" :key="age" class="year-row">
+        <span>{{ twoDigits(age) }}歳:</span>
+        <div v-for="week in weeks" :key="week.index" 
+             :class="['week-block', week.passed ? 'week-filled' : 'week-empty']"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
